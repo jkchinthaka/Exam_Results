@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination Results System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Examination Results</h1>
+        
+        <!-- Form for Adding Results -->
+        <h2>Add Results</h2>
+        <form id="addResultForm">
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" required>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" required>
+            <label for="marks">Marks:</label>
+            <input type="number" id="marks" required>
+            <button type="submit">Add Result</button>
+        </form>
+
+        <!-- Form for Checking Results -->
+        <h2>Check Results</h2>
+        <form id="checkResultForm">
+            <label for="checkStudentId">Student ID:</label>
+            <input type="text" id="checkStudentId" required>
+            <button type="submit">Check Result</button>
+        </form>
+
+        <!-- Display Result -->
+        <div id="resultDisplay"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
