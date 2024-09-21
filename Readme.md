@@ -38,4 +38,4 @@ The project includes:
 
 - **Chinthaka Jayaweera**  
   2nd Year Student, NSBM  
-  Contact: chinthaka.jayaweera@example.com
+  Contact: chinthakajayaweera1@gmail.com
